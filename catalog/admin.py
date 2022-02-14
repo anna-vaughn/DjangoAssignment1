@@ -2,10 +2,13 @@ from django.contrib import admin
 from .models import Author, Genre, Book, BookInstance
 
 # Register your models here.
-# admin.site.register(Book)
-# admin.site.register(Author)
+# this was commented out
+admin.site.register(Book)
+# this was commented out
+admin.site.register(Author)
 admin.site.register(Genre)
-# admin.site.register(BookInstance)
+# this was commented out
+admin.site.register(BookInstance)
 
 
 class AuthorAdmin(admin.ModelAdmin):
